@@ -1,0 +1,22 @@
+uuid: 8a8eb280-be1a-46f7-a15a-cfeb8cf7270a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - stackoverflow
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: stackoverflow_content
+theme: stackoverflow
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
