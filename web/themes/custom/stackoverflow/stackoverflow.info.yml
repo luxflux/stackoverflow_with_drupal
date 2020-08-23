@@ -1,0 +1,7 @@
+name: Stackoverflow
+description: Stackoverflow Clone Theme
+type: theme
+core: 8.x
+libraries: 
+  - stackoverflow/global-css
+  - stackoverflow/global-js

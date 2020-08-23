@@ -1,0 +1,22 @@
+uuid: a8d8e117-d493-4700-bb7f-acce4d5cd6b2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - stackoverflow
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: stackoverflow_messages
+theme: stackoverflow
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }
