@@ -1,0 +1,12 @@
+uuid: 0be9ac25-5029-44b1-82db-75ae0f81028e
+langcode: en
+status: true
+dependencies:
+  module:
+    - message
+_core:
+  default_config_hash: oEpQRdvbNOf_zOLFMVB72xOu09bAn8SQqlc7H2vI_-Q
+id: message.mail_subject
+label: 'Notify - Email subject'
+targetEntityType: message
+cache: true

@@ -1,0 +1,42 @@
+uuid: 4ba385c7-852c-46c7-9d42-cbb310f3b3ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.questions.body
+    - field.field.node.questions.field_title
+    - node.type.questions
+  module:
+    - text
+    - user
+id: node.questions.teaser
+targetEntityType: node
+bundle: questions
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  flag_email_node:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  flag_subscribe_node:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_title: true

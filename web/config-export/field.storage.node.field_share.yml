@@ -1,0 +1,20 @@
+uuid: 05f3ba7c-5350-416b-9b53-b6e6167013aa
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - social_share
+id: node.field_share
+field_name: field_share
+entity_type: node
+type: social_share_link
+settings:
+  allowed_values: "social_share_pinterest\r\nsocial_share_twitter\r\nsocial_share_mail\r\nsocial_share_facebook"
+module: social_share
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

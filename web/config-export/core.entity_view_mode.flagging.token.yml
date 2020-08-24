@@ -1,0 +1,10 @@
+uuid: ed941441-7a61-4880-b9c7-eeef797cb53e
+langcode: en
+status: true
+dependencies:
+  module:
+    - flag
+id: flagging.token
+label: Token
+targetEntityType: flagging
+cache: true
