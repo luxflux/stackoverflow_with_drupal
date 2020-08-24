@@ -1,0 +1,13 @@
+.content {
+  width: 800px;
+  padding-left: 200px;
+}
+.sidebar-first {
+  float: left;
+  margin-right: 30px;
+}
+.sidebar-second {
+  float: right;
+}
+
+
