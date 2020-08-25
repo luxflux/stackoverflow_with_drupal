@@ -1,0 +1,15 @@
+uuid: eedad56d-8a5f-4d62-ba82-92ba63a2a6d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.email_term
+  module:
+    - flag
+id: flag_action.email_term_flag
+label: 'Send email'
+type: taxonomy_term
+plugin: 'flag_action:email_term_flag'
+configuration:
+  flag_id: email_term
+  flag_action: flag

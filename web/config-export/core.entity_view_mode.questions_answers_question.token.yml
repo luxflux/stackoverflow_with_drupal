@@ -1,0 +1,10 @@
+uuid: 0569b011-43e3-47d1-af0d-a99d3eca399d
+langcode: en
+status: true
+dependencies:
+  module:
+    - questions_answers
+id: questions_answers_question.token
+label: Token
+targetEntityType: questions_answers_question
+cache: true

@@ -1,0 +1,23 @@
+uuid: da4ce1fe-33f4-48ed-b80c-c15d0cb2372d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.answer
+  module:
+    - text
+id: node.answer.body
+field_name: body
+entity_type: node
+bundle: answer
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

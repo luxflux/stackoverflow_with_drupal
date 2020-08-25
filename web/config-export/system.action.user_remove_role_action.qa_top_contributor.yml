@@ -1,0 +1,14 @@
+uuid: 4ec94112-65bc-442b-858e-f31a683667e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.qa_top_contributor
+  module:
+    - user
+id: user_remove_role_action.qa_top_contributor
+label: 'Remove the Questions and Answers Top Contributor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: qa_top_contributor

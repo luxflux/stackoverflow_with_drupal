@@ -1,0 +1,38 @@
+uuid: f28f1a63-5c70-489e-bce7-4fe25a43ca51
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.answer.body
+    - node.type.answer
+  module:
+    - text
+    - user
+id: node.answer.default
+targetEntityType: node
+bundle: answer
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  flag_email_node:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  flag_subscribe_node:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
