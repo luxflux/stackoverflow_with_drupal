@@ -13,3 +13,8 @@ regions:
   sidebar_first: 'Left Sidebar'
   sidebar_second: 'Right Sidebar'
   footer_first: 'Footer First'
+  footer_second: 'Footer Second'
+  footer_third: 'Footer third'
+  footer_fourth: 'Footer Fourth'
+  footer_fifth: 'Footer Fifth'
+  copyright_string: 'Copytright String'
