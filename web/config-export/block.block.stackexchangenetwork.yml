@@ -1,0 +1,25 @@
+uuid: 39866079-71d8-4a9b-beda-10058e31fec4
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.stack-exchange-network
+  module:
+    - system
+  theme:
+    - stackoverflow
+id: stackexchangenetwork
+theme: stackoverflow
+region: footer_fourth
+weight: 0
+provider: null
+plugin: 'system_menu_block:stack-exchange-network'
+settings:
+  id: 'system_menu_block:stack-exchange-network'
+  label: 'STACK EXCHANGE NETWORK'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

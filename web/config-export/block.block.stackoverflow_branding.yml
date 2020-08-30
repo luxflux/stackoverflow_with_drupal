@@ -1,6 +1,6 @@
 uuid: 20d130a2-8bc6-4b62-93ee-c64a0db5e59b
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,7 +10,7 @@ _core:
   default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
 id: stackoverflow_branding
 theme: stackoverflow
-region: header
+region: navbar
 weight: 0
 provider: null
 plugin: system_branding_block

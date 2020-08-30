@@ -1,6 +1,6 @@
 uuid: 2280c5dc-9327-486c-a9a3-217d4dddc2a0
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,7 +10,7 @@ _core:
   default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
 id: stackoverflow_breadcrumbs
 theme: stackoverflow
-region: breadcrumb
+region: navbar
 weight: 0
 provider: null
 plugin: system_breadcrumb_block

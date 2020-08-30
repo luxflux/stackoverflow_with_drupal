@@ -1,6 +1,6 @@
 uuid: 2ca8f991-c059-4b08-920c-6d8deb04c1c8
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.main
@@ -12,7 +12,7 @@ _core:
   default_config_hash: ChCx7DYNUrPTt5uiRdQAPDKJQMc-_SyAQTrZh8H0o-c
 id: stackoverflow_main_menu
 theme: stackoverflow
-region: primary_menu
+region: navbar
 weight: 0
 provider: null
 plugin: 'system_menu_block:main'

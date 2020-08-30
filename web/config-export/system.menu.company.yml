@@ -1,0 +1,8 @@
+uuid: a148c9c7-4eda-41a4-b6b8-93c2551083e9
+langcode: en
+status: true
+dependencies: {  }
+id: company
+label: COMPANY
+description: 'Company menu in footer'
+locked: false
