@@ -1,0 +1,8 @@
+uuid: 5fc89341-1f5d-4f46-b053-23bdca983f37
+langcode: en
+status: true
+dependencies: {  }
+id: stack-exchange-network
+label: 'STACK EXCHANGE NETWORK'
+description: 'Stack Exchange Network in footer menu'
+locked: false

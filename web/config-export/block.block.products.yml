@@ -1,0 +1,25 @@
+uuid: d6b17555-2499-4ec3-adcd-3b1d914d7ece
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.products
+  module:
+    - system
+  theme:
+    - stackoverflow
+id: products
+theme: stackoverflow
+region: footer_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:products'
+settings:
+  id: 'system_menu_block:products'
+  label: PRODUCTS
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

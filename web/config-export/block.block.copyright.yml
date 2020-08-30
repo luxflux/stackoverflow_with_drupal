@@ -1,0 +1,25 @@
+uuid: c9eee6a6-6369-4eda-ae17-95cdbed09315
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ec53c315-d213-4d36-a8ae-0768e237f2c6'
+  module:
+    - block_content
+  theme:
+    - stackoverflow
+id: copyright
+theme: stackoverflow
+region: copyright_string
+weight: 0
+provider: null
+plugin: 'block_content:ec53c315-d213-4d36-a8ae-0768e237f2c6'
+settings:
+  id: 'block_content:ec53c315-d213-4d36-a8ae-0768e237f2c6'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

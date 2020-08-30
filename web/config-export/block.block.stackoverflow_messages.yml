@@ -1,6 +1,6 @@
 uuid: a8d8e117-d493-4700-bb7f-acce4d5cd6b2
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,7 +10,7 @@ _core:
   default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
 id: stackoverflow_messages
 theme: stackoverflow
-region: highlighted
+region: navbar
 weight: 0
 provider: null
 plugin: system_messages_block
