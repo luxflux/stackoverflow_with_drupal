@@ -29,6 +29,7 @@ module:
   history: 0
   image: 0
   link: 0
+  menu_export: 0
   menu_link_content: 0
   menu_ui: 0
   message: 0
@@ -58,6 +59,7 @@ module:
   typed_data: 0
   update: 0
   user: 0
+  user_promotion: 0
   views_ui: 0
   votingapi: 0
   votingapi_tokens: 0
